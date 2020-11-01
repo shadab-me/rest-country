@@ -1,5 +1,4 @@
-import {createUI, userInput, byRegion} from './main.js';
-import {ByInput} from './helper.js'
+import {createUI, userInput, byRegion,ByInput} from './main.js';
 let url = 'https://restcountries.eu/rest/v2/all';
  
 

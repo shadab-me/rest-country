@@ -5,7 +5,7 @@ import {
 export let userInput = document.querySelector('#userInput');
 let select = document.querySelector('#select');
 
-function ByInput(countries) {
+export function ByInput(countries) {
     userInput.addEventListener('keypress', (e) => {
         console.log(e.target.value)
         if (e.target.value != '') {
